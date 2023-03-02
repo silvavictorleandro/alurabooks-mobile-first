@@ -1,0 +1,28 @@
+.topicos {
+  background: var(--azul-degrade);  
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.titulo__secundario {
+  color: var(--branco);
+  font-weight: 300;
+  margin: 1rem;
+  text-transform: uppercase;
+}
+
+.topicos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topicos__item {
+  background-color: var(--laranja-titulo);
+  color: var(--branco);
+  font-size: 14px;
+  font-weight: 700;
+  margin: .5rem;
+  padding: 1rem;
+  text-decoration: none;
+}
