@@ -1,7 +1,6 @@
 .carrossel__titulo {
   background-color: var(--branco);
   color: var(--laranja-titulo);
-  font-size: 18px;
   font-weight: 700;
   padding: 1rem 0 .5rem 0;
   text-align: center;
@@ -22,3 +21,24 @@
   display: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .carrossel__titulo {
+    font-size: 26px;
+    padding: 2rem 0 1rem;
+  }
+
+  .swiper-pagination {
+    margin: 2rem 0 3rem 0;
+  }
+
+  .swiper {
+    max-width: 840px;
+    width: 60%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+}

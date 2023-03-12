@@ -3,6 +3,50 @@ hr {
 }
 
 .rodape {
-  background-color: var(--branco);
+  background-color: #F9F9F9;
   padding: 1rem;
+}
+
+.rodape__segmentos {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  
+  .rodape {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+  }
+
+  .rodape__titulo {
+    font-size: 1.5rem;
+  }
+
+  .rodape__lista {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rodape__subtitulo {
+    color: #858585;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+  }
+
+  .rodape__itens {
+    align-items: center;
+    display: flex;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+  }
+
+  .rodape__itens-imagem {
+    margin-right: .5rem;
+  }
+
+  .rodape__itens-link {
+    color: #474646;
+    text-decoration: none;
+  }
 }
