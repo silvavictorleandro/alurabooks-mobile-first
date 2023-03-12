@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
 </head>
@@ -40,9 +41,40 @@
         </li>
       </ul>
       <img src="img/Logo.svg" alt="Logo da Alurabooks" class="cabecalho__imagem">
+      <h1 class="cabecalho__titulo"><b class="cabecalho__titulo-negrito">Alura</b>Books</h1>
     </div>
+    <ul class="cabecalho__menu">
+      <input type="checkbox" id="cabecalho__menu-categorias" class="cabecalho__menu-botao">
+      <label for="cabecalho__menu-categorias">
+        <li class="cabecalho__menu-item">Categorias</li>
+      </label>
+      <ul class="lista__menu">
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Programação</a>
+        </li>
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Front-End</a>
+        </li>
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Infraestrutura</a>
+        </li>
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Business</a>
+        </li>
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Design & UX</a>
+        </li>
+      </ul>
+      <li class="cabecalho__menu-item">
+        <a href="#" class="cabecalho__menu-link">Favoritos</a>
+      </li>
+      <li class="cabecalho__menu-item">
+        <a href="#" class="cabecalho__menu-link">Minha estante</a>
+      </li>
+    </ul>
     <div class="container">
-      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="cabecalho__imagem"></a>
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+          class="cabecalho__imagem cabecalho__imagem-favorito"></a>
       <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="cabecalho__imagem"></a>
       <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="cabecalho__imagem"></a>
     </div>
@@ -154,7 +186,7 @@
       <a href="#" class="topicos__item">Python</a>
       <a href="#" class="topicos__item">OO</a>
       <a href="#" class="topicos__item">Java</a>
-    </div>    
+    </div>
   </section>
 
   <section class="contato">

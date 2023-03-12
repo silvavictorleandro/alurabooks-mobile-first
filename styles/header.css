@@ -38,6 +38,7 @@
 
 .cabecalho__menu-botao:checked~.lista__menu {
   display: block;
+  width: auto;
 }
 
 
@@ -58,4 +59,49 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-transform: uppercase;
+}
+
+.cabecalho__titulo,
+.cabecalho__menu {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .cabecalho {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cabecalho__menu-hamburguer,
+  .cabecalho__imagem-favorito {
+    display: none;
+  }
+
+  .cabecalho__titulo {
+    display: block;
+    font-family: var(--fonte-secundaria);
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .cabecalho__titulo-negrito {
+    font-weight: 700;
+  }
+
+  .cabecalho__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .cabecalho__menu-item {
+    text-transform: uppercase;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+
+  .cabecalho__menu-link {
+    text-decoration: none;
+    color: var(--preto);
+  }
 }

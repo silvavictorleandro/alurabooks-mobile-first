@@ -8,11 +8,13 @@
 
 :root {
   --fonte-principal: 'Poppins';
+  --fonte-secundaria: 'Josefin Sans';
   --cor-de-fundo: #EBECEE;
   --branco: #FFFFFF;
   --laranja-titulo: #EB9B00;
   --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
   --azul-titulo: #002F52;
+  --preto: #000000;
 }
 
 body {
