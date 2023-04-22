@@ -11,6 +11,10 @@
   margin-bottom: 1rem;
 }
 
+.descricao__imagem-titulo {
+  margin-bottom: 1rem;
+}
+
 .descricao__titulo {
   color: var(--laranja-titulo);
   font-weight: 700;
@@ -20,7 +24,7 @@
   color: var(--azul-titulo);
   font-size: 18px;
   font-weight: 700;
-  margin: .5rem 0;
+  margin: 1rem 0;
 }
 
 .descricao__texto {
@@ -54,7 +58,7 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 716px) {
   .card {
     max-width: 560px;
     width: 40%; 

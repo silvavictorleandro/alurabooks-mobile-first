@@ -29,7 +29,7 @@ hr {
   }
 
   .rodape__subtitulo {
-    color: #858585;
+    color: var(--cinza);
     font-size: .9rem;
     margin-bottom: 1rem;
   }
@@ -46,7 +46,15 @@ hr {
   }
 
   .rodape__itens-link {
-    color: #474646;
+    color: var(--cinza-escuro);
     text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {  
+
+  .rodape__lista {
+    border-left: 1px solid var(--cinza);
+    padding-left: 1rem;
   }
 }

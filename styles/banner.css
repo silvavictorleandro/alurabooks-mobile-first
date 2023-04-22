@@ -38,7 +38,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 716px) {
   .banner {
     padding: 4rem;
   }
@@ -49,7 +49,7 @@
 
   .banner__pesquisa {
     padding: 1rem;
-    width: 50%;
+    max-width: 30rem;
   }
 
   .banner__pesquisa::placeholder {
