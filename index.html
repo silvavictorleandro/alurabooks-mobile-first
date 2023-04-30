@@ -151,9 +151,9 @@
         <div class="swiper-slide"><img src="img/MEAN.svg" alt="Livro Mean"></div>
         <div class="swiper-slide"><img src="img/Angular.svg" alt="Livro Angular 11 e Firebase"></div>
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
       </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
   </section>
 
   <article class="card">
@@ -297,6 +297,13 @@
       pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 2000,
       },
     });
   </script>
